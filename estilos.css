@@ -1,0 +1,525 @@
+body {
+    font-family: "Lato",sans-serif; 
+    background: #6e6876;
+    color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, #B5838C 50%, #FFCDB2 50%);
+}
+
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 0%;
+}
+
+.navbar {
+    flex-grow: 1;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-left: 64%;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14.5px;
+    color: rgb(103, 89, 89);
+    font-weight: 200;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.content-banner{
+    background-image: url('imgprincipal.png');
+    height: 47rem;
+    background-size:cover;
+    background-position:right;
+    margin-top: 0%;
+    max-width: 200rem;
+    margin-top: 0%;
+    margin-left: 10%;
+    padding: 6rem 0;
+}
+
+
+.content-banner p{
+    color: white;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.content-banner h2{
+    color: white;
+    font-size: 6rem;
+}
+
+.content-banner a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #B5838C;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-style:groove;
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.About h1{
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+.About p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+
+.about-content {
+    max-width: 150rem;
+    display: flex;
+    flex-direction:row;
+}
+
+.about-content .text{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-content .text h2{
+    font-size: 35px;
+}
+
+.about-content .text h3{
+    font-size: 20px;
+}
+
+.about-content .text p{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    text-align: left;
+}
+
+.about-content .text a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #6e6876;
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-style:groove;
+}
+
+.about-content .images img{
+    max-width: 150rem; /* Ajusta el ancho máximo de las imágenes */
+}
+
+.images {
+    display: flex;
+    flex-direction: column; /* Coloca las imágenes en una columna */
+    align-items: flex-end; /* Alinea las imágenes a la derecha */
+    margin-right: 10%;
+}
+
+.container-direccion {
+    background-color: #B5838C;
+    max-width: 14rem;
+    max-height: 12rem;
+    margin-left: 10%;
+    margin-top: 10%; /* Ajusta el margen superior */
+}
+
+.container-direccion img{
+    max-width: 3rem;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.container-direccion h1{
+    margin-left: 5%;
+}
+
+.container-direccion p{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.container-logo-direccion{
+    display: flex;
+    flex-direction: row;
+}
+
+iframe {
+    display: flex; /* Hacer que el mapa sea un bloque para ajustar el ancho automáticamente */
+    margin-top: 10%; /* Ajusta el margen superior para que coincida con .container-direccion */
+    margin-left: 0%;
+}
+
+.container-logo-direccion .content-localization{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.content-localization h1{
+    font-size: 50px;
+}
+
+.Menu{
+    text-align: center;
+    background-image: url('libretamilk.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin-top: 10%;
+}
+
+.menu-content {
+    max-width: 100rem;
+    display: flex;
+    position: relative;
+}
+
+.content-to-drink,
+.content-to-eat {
+    flex: 1; /* Hace que ocupen el mismo espacio */
+    margin: 0 10px; /* Añade un margen entre las secciones */
+}
+
+.Menu h1{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Menu p{
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.content-to-drink{
+    background-color: #5a5464;
+    max-width: 38rem;
+}
+
+.content-to-drink h1{
+    font-size: 40px;
+    margin-right: 25%;
+}
+
+.content-to-drink .single-menu{
+    width: 38   rem;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-left: 27%;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+.content-to-drink .single-menu img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+ 
+.content-to-eat h1{
+    font-size: 40px;
+    margin-right: 75%;
+}
+
+.content-to-eat .single-menu{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    margin-right: 85%;
+}
+
+.content-to-eat .single-menu img{
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.content-to-eat{
+    max-width: 38rem;
+    background-color: #B5838C;
+    margin-right: 10%;
+    position: relative;
+    left: -19px;
+}
+
+
+.content-to-eat .single-menu{
+    width: 38rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-right: 0%;
+    border-bottom: 1px dashed #000;
+    margin-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+.content-to-eat .single-menu .menu-content h2,p{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap: 3rem;
+
+}
+
+.reviews {
+    position: relative; /* Importante para que el pseudo-elemento se posicione correctamente */
+    text-align: center;
+}
+
+.reviews::before {
+    content: '';
+    position: absolute;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('comillas.png');
+    background-repeat: no-repeat;
+    background-position: -520px center; /* Ajusta el valor '20px' según tu preferencia */
+    opacity: 0.1; /* Ajusta la opacidad según tu preferencia */
+    z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido */
+}
+
+
+.reviews h1{
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.reviews p{
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    color: #b6b4b7;
+}
+
+.container-reviews{
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    margin: 0 auto;
+}
+
+
+.content{
+    margin-top: 5%;
+    max-width: 50rem;
+    margin-left: 30px;
+    display: block;
+    align-items: center;
+    text-align: left;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #b6b4b7;
+}
+
+.container-reviews .review1{
+    width: 35rem;
+}
+
+.container-reviews .review1 img{
+    width: 1rem;
+    margin-top: 5%;
+}
+
+.testimonio {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-reviews .review2{
+    width: 35rem;
+}
+
+.container-reviews .review2 img{
+    width: 1rem;
+}
+
+.container-reviews .review3{
+    width: 35rem;
+}
+
+.container-reviews .review3 img{
+    width: 1rem;
+}
+
+.content .testimonio img{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.marketing{
+    height: 45rem;
+}
+
+.content-marketing{
+    height: 70%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #b5838c;
+    border-radius: 20px 20px 20px 20px;
+    background-image: url('CafeLibro.png');
+    background-repeat: no-repeat;
+    background-position-y: 170px;
+}
+
+
+.content-marketing h1{
+    margin-top: 30px;
+    font-family: 'Noto Serif',serif;
+    font-size: 3.6rem;
+}
+
+.content-marketing h2 {
+    width: 48rem; /* Ancho deseado */
+    margin: 0 auto; /* Margen automático a los lados para centrar el elemento */
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    font-family: 'Noto Serif', serif;
+    display: block;
+    text-align: center; /* Asegura que el texto esté centrado dentro del h2 */
+}
+
+
+.footer{
+    
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.container-footer .Hours{
+    margin-left: 100px;
+}
+
+.Hours img, .Hours p{
+    width: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Hours img{
+    position: relative;
+    left: 80px;
+    bottom: -45px;
+}
+
+.container-footer .Hours p{
+    width: 48rem; /* Ancho deseado */
+    margin-left: 10%; /* Margen automático a los lados para centrar el elemento */
+    font-size: 1.3rem;
+    color: #FFCDB2;
+    margin-bottom: 5%;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.Hours p{
+    position: relative;
+    left: 40px;
+}
+
+.container-footer .Hours h1{
+    margin-left: 10%;
+    font-size: 2.8rem;
+    color: rgb(202, 199, 199);
+}
+
+.container-footer .Direccion{
+    position: relative;
+    bottom: 0px;
+    right: 30px;
+}
+
+.container-footer .Direccion p{
+    width: 30rem; /* Ancho deseado */
+    font-size: 1.3rem;
+    color: #FFCDB2;
+    margin-bottom: 15%;
+    font-family: 'Noto Serif', serif;
+    display: block;
+    text-align: right;
+    position: relative;
+    right: 51px;
+}
+
+.lineafooter{
+    height: 2px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-footer .Direccion h1{
+    margin-right: 10%;
+    font-size: 1rem;
+    display: block;
+    text-align: right;
+    color: rgb(202, 199, 199);
+}
+
+.Direccion img, .Direccion p{
+    width: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Direccion img{
+    position: relative;
+    left: 320px;
+    bottom: -45px;
+}
